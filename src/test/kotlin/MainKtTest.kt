@@ -12,6 +12,6 @@ internal class MainKtTest {
 
         val result = commission(typeCard, amountThisMounth, transferAmount)
 
-        //assertEquals(112500, result)
+        assertEquals(0, result)
     }
 }
